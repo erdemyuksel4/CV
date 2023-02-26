@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erdem Yüksel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        .shad {
+            -webkit-box-shadow: 0px 10px 44px -9px rgba(0, 0, 0, 0.59);
+            -moz-box-shadow: 0px 10px 44px -9px rgba(0, 0, 0, 0.59);
+            box-shadow: 0px 10px 44px -9px rgba(0, 0, 0, 0.59);
+        }
+
+        .bga {
+            background-image: linear-gradient(225deg, #222423 25%, #ba2525 25%, #ba2525 50%, #222423 50%, #222423 75%, #ba2525 75%, #ba2525 100%);
+
+        }
+
+        body,
+        html {
+            height: 100%;
+
+        }
+
+        .asd {
+            animation: anim 4s;
+        }
+
+        #sideBar {
+            display: block
+        }
+
+        @keyframes anim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .ar {
+            display: none;
+        }
+
+        /* 
+        div:hover>.ar {
+            animation: opAn 2s ease;
+            height: 100%;
+        }
+
+        div:not( :hover)>.ar {
+            opacity: 0;
+            height: 0;
+        }
+
+        @keyframes opAn {
+            from {
+                opacity: 0;
+                height: 0;
+            }
+
+            to {
+                height: 100%;
+                opacity: 1;
+            }
+        } */
+
+        .progress {
+            /* background: rgb(0, 155, 159);
+            background: -moz-linear-gradient(90deg, rgba(0, 155, 159, 1) 0%, rgba(206, 255, 0, 1) 43%, rgba(255, 0, 0, 1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(0, 155, 159, 1) 0%, rgba(206, 255, 0, 1) 43%, rgba(255, 0, 0, 1) 100%);
+            background: linear-gradient(90deg, rgba(0, 155, 159, 1) 0%, rgba(206, 255, 0, 1) 43%, rgba(255, 0, 0, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#009b9f", endColorstr="#ff0000", GradientType=1);
+            background-clip: content-box;
+            background-repeat: no-repeat; */
+            background: rgb(255, 10, 10);
+            background: -moz-linear-gradient(225deg, rgba(255, 10, 10, 1) 5%, rgba(103, 71, 71, 1) 50%, rgba(55, 79, 63, 1) 80%);
+            background: -webkit-linear-gradient(225deg, rgba(255, 10, 10, 1) 5%, rgba(103, 71, 71, 1) 50%, rgba(55, 79, 63, 1) 80%);
+            background: linear-gradient(225deg, rgba(255, 10, 10, 1) 5%, rgba(103, 71, 71, 1) 50%, rgba(55, 79, 63, 1) 80%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0a0a", endColorstr="#374f3f", GradientType=1);
+           /* / background: linear-gradient(259deg, rgba(47,18,30,5) 83%, rgba(10,78,34,8) 59%, rgba(99,88,55,4) 85%, rgba(71,31,27,1) 74%, rgba(77,3,61,8) 38% ); */
+        }
+    </style>
+</head>
+
+<body class="h-100 bga">
+    <div class="container h-100 w-100 py-4">
+
+        <div class="row h-100">
+
+            <div class="col-sm-3  rounded d-flex align-items-center justify-content-center" style="height:100%"
+                id="sideBar">
+                <div class="container asd" style="display:flex;justify-content:center;align-items:start;height:100%">
+                    <div class="row bg-transparent position-absolute " style="height:20%;">
+                        <img src="a.jpeg" class="m-auto h-100 position-relative p-0" style="border: 6px solid #222423;
+                            border-radius: 50%;bottom:-35%;object-fit: cover;aspect-ratio: 1/1;z-index: 30;" alt="">
+
+                    </div>
+                    <div class="row" style="position: relative;z-index: 2;height: 80%;align-self: end;">
+                        <div class="col m-0 p-0 bg-light rounded d-flex align-items-center justify-content-center"
+                            style="">
+                            <div class="container asd">
+
+
+                                <div class="row ">
+                                    <div class="col h1 text-center">
+                                        Erdem Yüksel
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row mb-3">
+                                    <div class="col h3 text-center">Junior Developer</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+
+
+                                        I'm Erdem Yüksel. Since my childhood, I've been studying about
+                                        programming.
+                                        I do
+                                        already
+                                        have experience about mentioned languages and I'm keep improving myself.
+                                        Moreover, I'm
+                                        student of computer engineering. In my spare time, I've been
+                                        working as a freelancer on bionluk.com for a while. For now, I haven't yet had
+                                        any
+                                        work
+                                        experience in companies.
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col">
+                                        E-mail Account: <div class="w-100"><a
+                                                href="mailto:erdemyuksel04@gmail.com">erdemyuksel04@gmail.com</a></div>
+                                        Bionluk Account: <div class="w-100"><a
+                                                href="https://bionluk.com/erdemyuksel">https://bionluk.com/erdemyuksel</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 pt-4" id="startTab" >
+                <div class="container h-100 text-center">
+                    <div class="row h-100" >
+                        <div class="col">
+                            <h1
+                                class="h1  d-flex h-100 justify-content-center align-items-center text-center text-light">
+                                Hello </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 pt-4" id="skillTab">
+                <div class="container h-100 text-center">
+                    <!-- <div class="row h-100" id="startTab">
+                        <div class="col">
+                            <h1
+                                class="h1  d-flex h-100 justify-content-center align-items-center text-center text-light">
+                                Hello </h1>
+                        </div>
+                    </div> -->
+                    <div class="row h-100">
+                        <div class="col h-100">
+                            <div class="container rounded bg-light h-100">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="h2 m-2 text-start">
+                                            Skills
+                                        </h2>
+                                        <hr class="hr text-dark">
+                                        <div class="oscroll container accordion mx-0" id="Acc">
+
+                                            <div class="container accordion-item my-2 px-0">
+                                                <h3 class=" accordion-header text-start"><button
+                                                        class="accordion-button m-0 text-dark"
+                                                        style="background-color: white;" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        Web Languages & Web Frameworks
+                                                    </button> </h3>
+                                                <div class="row accordion-collapse collapse  p-0 m-0 show"
+                                                    id="collapseOne" data-bs-parent="#Acc">
+                                                    <div class="accordion-body">
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            HTML <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg95">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            CSS <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg60">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            JS <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg80">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            PHP <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg75">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            Laravel <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg30">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            Codeigniter <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg60">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            Jquery <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg80">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP mb-3"
+                                                            style="z-index:3">
+                                                            Django <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog bg-light h-100  dg50">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="container accordion-item my-2 px-0">
+                                                <h3 class="h3 text-start accordion-header"><button
+                                                        class="accordion-button m-0 text-dark"
+                                                        style="background-color: white;" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="true" aria-controls="collapseTwo">
+                                                        Desktop Apps Languages
+                                                    </button> </h3>
+                                                <div class="row accordion-collapse p-0 m-0 collapse " id="collapseTwo"
+                                                    data-bs-parent="#Acc">
+                                                    <div class="accordion-body ">
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            Python <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg65">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+
+
+
+
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP"
+                                                            style="z-index:3">
+                                                            C# <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg65">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+
+
+
+
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP mb-3"
+                                                            style="z-index:3">
+                                                            Dart <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg55">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="container accordion-item my-2 px-0">
+                                                <h3 class="h3 text-start accordion-header"><button
+                                                        class="accordion-button m-0 text-dark"
+                                                        style="background-color: white;" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="true" aria-controls="collapseThree">
+                                                        Mobile & Game Development Frameworks
+                                                    </button> </h3>
+                                                <div class="row accordion-collapse p-0 m-0 collapse " id="collapseThree"
+                                                    data-bs-parent="#Acc">
+                                                    <div class="accordion-body ">
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP "
+                                                            style="z-index:3">
+                                                            Flutter <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg45">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+
+
+
+
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP mb-3"
+                                                            style="z-index:3">
+                                                            Unity <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg55">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+                                            <div class="container accordion-item my-2 px-0">
+                                                <h3 class="h3 text-start accordion-header"> <button
+                                                        class="accordion-button m-0 text-dark"
+                                                        style="background-color: white;" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                        aria-expanded="true" aria-controls="collapseFour">
+                                                        Database Languages
+                                                    </button>
+                                                </h3>
+                                                <div class="row accordion-collapse p-0 m-0 collapse " id="collapseFour"
+                                                    data-bs-parent="#Acc">
+                                                    <div class="accordion-body ">
+                                                        <div class="col-sm-12 text-start mt-3 borderless w-100 arP mb-3"
+                                                            style="z-index:3">
+                                                            MySQL <div class="progress rounded-end-0"
+                                                                style="display:flex;align-items: end;justify-content: end;z-index:2">
+                                                                <div class="sprog h-100 bg-light dg75">
+                                                                </div>
+                                                            </div>
+                                                            <p class=" p ar">
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            $('.collapse').on('show.bs.collapse', function (e) {
+                $('.collapse').collapse("hide")
+            })
+
+
+            function controlSplit(arr) {
+                for (let i = 0; i < arr.length; i++) {
+                    const element = arr[i];
+
+                    if (!isNaN(parseInt(element))) {
+                        return element;
+                    }
+                }
+
+            }
+            var progBars = document.getElementsByClassName("sprog");
+            for (let i = 0; i < progBars.length; i++) {
+                background = "background: "+randColor()+";background: -moz-linear-gradient("+randAxis()+"deg, rgba(53,53,61,1) 0%, rgba(41,41,47,1) 20%, rgba(97,23,28,1) 54%, rgba(210,14,14,1) 100%);background: -webkit-linear-gradient(9deg, rgba(53,53,61,1) 0%, rgba(41,41,47,1) 20%, rgba(97,23,28,1) 54%, rgba(210,14,14,1) 100%);background: linear-gradient(9deg, rgba(53,53,61,1) 0%, rgba(41,41,47,1) 20%, rgba(97,23,28,1) 54%, rgba(210,14,14,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#35353d',endColorstr='#d20e0e',GradientType=1);"
+                const element = progBars[i];
+                var a = element.className.split("dg");
+                var elW = (100 - (controlSplit(a))) + "%";
+                $(element).width("100%");
+                $(element).animate({
+                    width: elW
+                }, 5000, "linear", {
+                    done: () => {
+                        $(element).width(elW);
+
+                    }
+                })
+                $(element).width(elW);
+            }
+            function randColor(){
+                var r = Math.ceil(Math.random()*100);
+                var g = Math.ceil(Math.random()*100);
+                var b = Math.ceil(Math.random()*100);
+                var a = Math.ceil(Math.random()*10);
+                return "rgba("+r+","+g+","+b+","+a+")";
+            }
+            function randAxis() {
+                var r  =Math.random()*1000;
+                if(r>360){
+                    var a = Math.ceil(r%360);
+                }else{
+                    var a = Math.ceil(r);
+
+                }
+                return a;
+            }
+            function randPercentage() {
+                return Math.floor(Math.random()*100);
+            }
+            $("#skillTab").hide();
+            $("#startTab").animate({
+                opacity: 0,
+
+            },2000, function () {
+                $("#startTab").hide();
+                $("#skillTab").show("slow");
+
+            })
+            $(".arP").on("mouseover", (e) => {
+                $(e.target).children(".ar").stop().show("slow", () => {
+
+                })
+            });
+            $(".arP").on("mouseout", (e) => {
+
+                $(e.target).children(".ar").stop().hide("fast", () => {
+
+                })
+
+
+
+            })
+        })
+
+
+    </script>
+</body>
+
+</html>
